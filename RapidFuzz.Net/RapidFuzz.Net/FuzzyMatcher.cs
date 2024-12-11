@@ -35,6 +35,8 @@ public static class FuzzyMatcher
             {
                 yield return (score, index, value);
             }
+
+            index += 1;
         }
     }
 
